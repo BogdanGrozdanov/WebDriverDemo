@@ -5,9 +5,9 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriverDemo", "WebDriverDemo.csproj", "{FFD425E0-C89A-4751-A0C4-E308B19A47D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniWebDriver", "..\..\SoftUniWebDriver\SoftUniWebDriver\SoftUniWebDriver.csproj", "{BACB9E0D-03EA-4CD4-B7E5-9141CE457253}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikipediaWebDriver", "..\..\WikipediaWebDriver\WikipediaWebDriver.csproj", "{D7242498-6FD8-4223-B9F0-0FA21670F134}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikipediaWebDriver", "..\..\WikipediaWebDriver\WikipediaWebDriver\WikipediaWebDriver.csproj", "{10EEE0BD-7FC3-416A-AE00-FF044A42AB8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniWebDriver", "..\..\SoftUniWebDriver\SoftUniWebDriver.csproj", "{76B92951-9BC1-497E-B999-9C677B84F0CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{FFD425E0-C89A-4751-A0C4-E308B19A47D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFD425E0-C89A-4751-A0C4-E308B19A47D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFD425E0-C89A-4751-A0C4-E308B19A47D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BACB9E0D-03EA-4CD4-B7E5-9141CE457253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BACB9E0D-03EA-4CD4-B7E5-9141CE457253}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BACB9E0D-03EA-4CD4-B7E5-9141CE457253}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BACB9E0D-03EA-4CD4-B7E5-9141CE457253}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10EEE0BD-7FC3-416A-AE00-FF044A42AB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10EEE0BD-7FC3-416A-AE00-FF044A42AB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10EEE0BD-7FC3-416A-AE00-FF044A42AB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10EEE0BD-7FC3-416A-AE00-FF044A42AB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7242498-6FD8-4223-B9F0-0FA21670F134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7242498-6FD8-4223-B9F0-0FA21670F134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7242498-6FD8-4223-B9F0-0FA21670F134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7242498-6FD8-4223-B9F0-0FA21670F134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B92951-9BC1-497E-B999-9C677B84F0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B92951-9BC1-497E-B999-9C677B84F0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B92951-9BC1-497E-B999-9C677B84F0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B92951-9BC1-497E-B999-9C677B84F0CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
