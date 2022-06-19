@@ -29,7 +29,7 @@ public class SoftUniTests
     [Test]
     public void Assert_AboutUs_Page()
     {
-        var aboutUs = softUni_Driver.FindElement(By.CssSelector("li:nth-of-type(1) > .nav-link > .cell"));
+        var aboutUs = driver.FindElement(By.CssSelector("li:nth-of-type(1) > .nav-link > .cell"));
 
         var exepectedTitle = "За нас - Софтуерен университет";
 
@@ -41,7 +41,7 @@ public class SoftUniTests
     public void logOutLogIn()
     {
         driver.Navigate().GoToUrl("https://softuni.bg/");
-       // driver.Manage().Window.Size = new System.Drawing.Size(1936, 1048);
+        // driver.Manage().Window.Size = new System.Drawing.Size(1936, 1048);
         driver.FindElement(By.CssSelector(".softuni-btn.softuni-btn-primary.softuni-btn-small")).Click();
         driver.FindElement(By.CssSelector(".softuni-btn-primary")).Click();
         driver.FindElement(By.Id("username")).SendKeys("User1");
