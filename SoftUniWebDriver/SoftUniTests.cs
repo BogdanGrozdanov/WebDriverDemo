@@ -29,10 +29,7 @@ public class SoftUniTests
     [Test]
     public void Assert_AboutUs_Page()
     {
-
-        driver.Url = "https://softuni.bg";
-
-        var aboutUs = driver.FindElement(By.CssSelector("li:nth-of-type(1) > .nav-link > .cell"));
+        var aboutUs = softUni_Driver.FindElement(By.CssSelector("li:nth-of-type(1) > .nav-link > .cell"));
 
         var exepectedTitle = "За нас - Софтуерен университет";
 
