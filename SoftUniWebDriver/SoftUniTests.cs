@@ -6,7 +6,8 @@ public class SoftUniTests
 {
     private ChromeDriver softUni_Driver;
 
-    [SetUp]
+
+    [OneTimeSetUp]
     public void SetUp()
     {
         this.softUni_Driver = new ChromeDriver();
@@ -14,12 +15,13 @@ public class SoftUniTests
         softUni_Driver.Manage().Window.Maximize();
     }
 
-    [TearDown]
+    [OneTimeTearDown]
     public void Close() => softUni_Driver?.Close();
 
     [Test]
     public void Assert_Main_Page_Title()
     {
+        softUni_Driver.Url = "https://softuni.bg";
         string exeptedTitle = "Обучение по програмиране - Софтуерен университет";
         Assert.That(softUni_Driver.Title, Is.EqualTo(exeptedTitle));
     }
