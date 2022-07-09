@@ -4,7 +4,7 @@ using OpenQA.Selenium.Chrome;
 
 public class SoftUniTests
 {
-    private ChromeDriver driver;
+    private WebDriver driver;
 
 
     [OneTimeSetUp]
@@ -48,7 +48,7 @@ public class SoftUniTests
         driver.FindElement(By.Id("password-input")).SendKeys("password");
         driver.FindElement(By.CssSelector(".softuni-btn")).Click();
         Assert.That(driver.FindElement(By.CssSelector("li")).Text, Is.EqualTo("Невалидно потребителско име или парола"));
-        driver.Close();
+        //driver.Close();
 
     }
 }
